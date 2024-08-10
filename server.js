@@ -1,14 +1,14 @@
 import express from "express";
 
 const app = express();
-const port = 3030;
+const port = 1000;
 
 app.set("view engine", "hbs");
 
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("main", { title: "Image Gallery" });
+  res.render("main", { title: "Image Gallery", heading: "My Image Gallery" });
 });
 
 app.listen(port, () => {

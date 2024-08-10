@@ -4,11 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{title}}</title>
+
+    <!-- CSS styles -->
     <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <b class="text-blue-800">Amal krishnan vp</b>
+
+    <div class="carrier px-5 pt-4">
+
+      <h1 class="font-bold text-4xl pb-7 text-center">{{heading}}</h1>
+
+      <div
+        class="row-one grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-4 gap-x-5 gap-y-5"
+      >
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img1.jpg" />
+          </div>
+          <div class="description text-center mt-2">Car</div>
+        </div>
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img2.jpg" />
+          </div>
+          <div class="description text-center mt-2">Hills</div>
+        </div>
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img3.jpg" />
+          </div>
+          <div class="description text-center mt-2">Bridge</div>
+        </div>
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img4.jpg" />
+          </div>
+          <div class="description text-center mt-2">Bulb</div>
+        </div>
+      </div>
+
+      <div
+        class="row-two grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-5 gap-y-5"
+      >
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img5.jpg" />
+          </div>
+          <div class="description text-center mt-2">House</div>
+        </div>
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img6.jpg" />
+          </div>
+          <div class="description text-center mt-2">Plant</div>
+        </div>
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img7.jpg" />
+          </div>
+          <div class="description text-center mt-2">Fish</div>
+        </div>
+        <div class="box border border-gray-400 hover:border-black p-2">
+          <div class="image-div">
+            <img src="/images/img8.jpg" />
+          </div>
+          <div class="description text-center mt-2">Bike</div>
+        </div>
+      </div>
+    </div>
+    <!-- Website scripts  -->
+    <script src="/javascripts/app.js"></script>
   </body>
 
 </html>
