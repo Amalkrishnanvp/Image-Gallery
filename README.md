@@ -25,6 +25,7 @@ This is an image gallery which displays some random wallpaper images. Users can 
 - Back-End:
 
   - Node.js with Express
+  - Handlebars
 
 - Additional Tools:
 
@@ -52,7 +53,7 @@ This is an image gallery which displays some random wallpaper images. Users can 
 
 3. **Install dependencies**
 
-   - npm install (to install the libraries and modules needed for the project eg: expess, handlebars etc.)
+   - npm install (to install the libraries and modules needed for the project eg: express, handlebars etc.)
 
 4. **Run the project**
 
