@@ -27,6 +27,7 @@ This is an image gallery which displays some random wallpaper images. Users can 
   - Node.js with Express
 
 - Additional Tools:
+
   - Version Control: Git and GitHub
 
 ---
