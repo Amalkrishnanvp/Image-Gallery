@@ -8,7 +8,7 @@ This is an image gallery which displays some random wallpaper images. Users can 
 
 ## Features
 
-- Responsive Design: The gallery adpts to different screen sizes and is responsive in all devices
+- Responsive Design: The gallery adapts to different screen sizes and is responsive in all devices
 - Image Viewing: Users can view the images in the image gallery
 - Simple Animation: Image will pop up just a little bit when hovered over them
 
@@ -43,15 +43,15 @@ This is an image gallery which displays some random wallpaper images. Users can 
 
 1. **Clone the repository**
 
-   - git clone https://github.com/your-username/image-gallery.git
+   - git clone https://github.com/your-username/image-gallery.git (to take the project on your local machine from github)
 
 2. **Navigate to the project directory**
 
-   - Cd "Image gallery"
+   - Cd "Image gallery" (directory names containing spaces need to put in double quotes to access, capital and small letters doesn't matter both works for accessing directory)
 
 3. **Install dependencies**
 
-   - npm install
+   - npm install (to install the libraries and modules needed for the project eg: expess, handlebars etc.)
 
 4. **Run the project**
 
@@ -59,10 +59,10 @@ This is an image gallery which displays some random wallpaper images. Users can 
 
 5. **Open in browser**
 
-   - Open your web browser and go to http://localhost:3000 (or the port specified in your configuration).
+   - Open your web browser and go to http://localhost:1000 (or the port specified in your configuration).
 
 ---
 
 ## Contact
 
-For any questions, contact Amalkrishnanvp17@gmai.com
+For any questions, contact Amalkrishnanvp17@gmail.com
