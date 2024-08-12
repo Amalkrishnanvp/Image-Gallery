@@ -47,7 +47,7 @@ This is an image gallery which displays some random wallpaper images. Users can 
 
 2. **Navigate to the project directory**
 
-   - Cd "Image gallery" (directory names containing spaces need to put in double quotes to access, capital and small letters doesn't matter both works for accessing directory)
+   - cd "Image gallery" (directory names containing spaces need to put in double quotes to access, capital and small letters doesn't matter both works for accessing directory)
 
 3. **Install dependencies**
 
