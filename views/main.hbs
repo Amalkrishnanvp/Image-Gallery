@@ -21,88 +21,24 @@
 
     <div class="carrier px-5 pt-4">
 
-      <h1 class="font-bold text-4xl pb-7 text-center">{{heading}}</h1>
+      <h1 class="font-bold text-4xl pb-7 text-center">{{accesser.heading}}</h1>
 
       <div
-        class="row-one grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-4 gap-x-5 gap-y-5"
+        class="main-row grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mb-4 gap-x-5 gap-y-5"
       >
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img1.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
+        {{#each accesser.imageHolder}}
+          <div
+            class="box border border-gray-400 hover:border-black p-2 rounded-sm"
+          >
+            <div class="image-div">
+              <img
+                src="/images/{{this.image}}.jpg"
+                class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
+              />
+            </div>
+            <div class="description text-center mt-2">{{this.description}}</div>
           </div>
-          <div class="description text-center mt-2">Car</div>
-        </div>
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img2.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">Hills</div>
-        </div>
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img3.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">Bridge</div>
-        </div>
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img4.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">Bulb</div>
-        </div>
-      </div>
-
-      <div
-        class="row-two grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-5 gap-y-5"
-      >
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img5.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">House</div>
-        </div>
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img6.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">Plant</div>
-        </div>
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img7.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">Fish</div>
-        </div>
-        <div class="box border border-gray-400 hover:border-black p-2 rounded-sm">
-          <div class="image-div">
-            <img
-              src="/images/img8.jpg"
-              class="transform hover:-translate-y-1 transition duration-300 ease-in-out"
-            />
-          </div>
-          <div class="description text-center mt-2">Bike</div>
-        </div>
+        {{/each}}
       </div>
     </div>
     <!-- Website scripts  -->
