@@ -4,15 +4,11 @@
 
 This is an image gallery which displays some random wallpaper images. Users can view the images in this image gallery
 
----
-
 ## Features
 
 - Responsive Design: The gallery adapts to different screen sizes and is responsive in all devices
 - Image Viewing: Users can view the images in the image gallery
 - Simple Animation: Image will pop up just a little bit when hovered over them
-
----
 
 ## Technologies Used
 
@@ -30,8 +26,6 @@ This is an image gallery which displays some random wallpaper images. Users can 
 - Additional Tools:
 
   - Version Control: Git and GitHub
-
----
 
 ## Installation
 
@@ -70,8 +64,6 @@ This is an image gallery which displays some random wallpaper images. Users can 
 5. **Open in browser**
 
    - Open your web browser and go to http://localhost:1000
-
----
 
 ## Contact
 
