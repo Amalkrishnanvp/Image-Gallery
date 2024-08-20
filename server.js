@@ -18,14 +18,17 @@ const container = {
   ],
 };
 
+// Set view engine: handlebars
 app.set("view engine", "hbs");
 
+// Serve static files from 'public' folder
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.render("main", { accesser: container });
 });
 
+// Start server 
 app.listen(port, () => {
   console.log(`Server started running on port: ${port}`);
 });
